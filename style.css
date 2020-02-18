@@ -1,0 +1,26 @@
+body{
+font-family: arial Black;
+color: white;
+h1{
+  font-size: 45px;
+}
+}
+.topbar{
+  position: fixed;
+  padding: 40px;
+  font-size: 60px;
+}
+.writing{
+  background-color: black;
+  padding: 275px;
+}
+#lows{
+  background-image: url(low.jpg);
+  background-size: cover;
+  height: 1000px;
+}
+#highs{
+  background-image: url(high.jpg);
+  background-size: cover;
+  height: 1000px;
+}

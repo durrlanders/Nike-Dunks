@@ -1,0 +1,66 @@
+body{
+font-family: arial Black;
+color: red;
+font-size: 60px;
+background-color: black;
+text-align: center;
+}
+
+#mondrian{
+background-image: url(mondrian.jpg);
+background-size: cover;
+height: 1000px;
+}
+
+#gibson{
+background-image: url(gibson.jpg);
+background-size: cover;
+height: 1000px;
+
+}
+
+#newcastle{
+background-image: url(newcastle.jpg);
+background-size: cover;
+height: 1000px;
+}
+
+#bic{
+background-image: url(bic.jpg);
+background-size: cover;
+height: 1000px;
+}
+
+#unkle{
+background-image: url(unkle.jpg);
+background-size: cover;
+height: 1000px;
+}
+
+#stussy{
+background-image: url(stussy.jpg);
+background-size: contain;
+height: 1600px;
+}
+#Reese-Forbes{
+background-image: url(reese-forbes.jpg);
+background-size: cover;
+height: 1000px;
+}
+#Quagmire{
+background-image: url(quagmire.jpg);
+background-size: cover;
+height: 1000px;
+}
+.text{
+  padding-top: 900px;
+}
+.moremoretext{
+  padding-top: 850px;
+}
+.evenmoretext{
+  padding-top: 850px;
+}
+.adir{
+  padding-top: 850px;
+}

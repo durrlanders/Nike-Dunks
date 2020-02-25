@@ -1,66 +1,98 @@
 body{
-font-family: arial Black;
-color: red;
-font-size: 60px;
-background-color: black;
+margin: 0px;
+padding: 0px;
+font-family: arial black;
+color: black;
+font-size: 7vmin;
+background-color: white;
 text-align: center;
 }
-
-#mondrian{
-background-image: url(mondrian.jpg);
-background-size: cover;
-height: 1000px;
+.topbar {
+  position: fixed;
+  display: flex;
+  flex-flow:column;
+  text-align: left;
+  padding-left: 7vmin;
+  padding-top: 0vmin;
+  font-size: 9vmin;
+  line-height: .1vmin;
+  }
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-#gibson{
-background-image: url(gibson.jpg);
-background-size: cover;
-height: 1000px;
-
+a{
+  color: red;
 }
-
-#newcastle{
-background-image: url(newcastle.jpg);
-background-size: cover;
-height: 1000px;
+.insetcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20vmin;
+  margin-top: 5vmin;
+  margin-right: 18vmin;
+  margin-bottom: 5vmin;
+  border-style: dashed;
+  border-width: 1.5vmin;
 }
-
-#bic{
-background-image: url(bic.jpg);
-background-size: cover;
-height: 1000px;
+.mondrian{
+  display: flex;
+  background-image: url(mondrian.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-
-#unkle{
-background-image: url(unkle.jpg);
-background-size: cover;
-height: 1000px;
+.UNKLE{
+  display: flex;
+  background-image: url(unkle.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-
-#stussy{
-background-image: url(stussy.jpg);
-background-size: contain;
-height: 1600px;
+.Reese{
+  display: flex;
+  background-image: url(reese-forbes.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-#Reese-Forbes{
-background-image: url(reese-forbes.jpg);
-background-size: cover;
-height: 1000px;
+.quagmire{
+  display: flex;
+  background-image: url(quagmire.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-#Quagmire{
-background-image: url(quagmire.jpg);
-background-size: cover;
-height: 1000px;
+.Stussy{
+  display: flex;
+  background-image: url(stussy.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-.text{
-  padding-top: 900px;
+.Newcastle{
+  display: flex;
+  background-image: url(newcastle.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-.moremoretext{
-  padding-top: 850px;
+.gibson{
+  display: flex;
+  background-image: url(gibson.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-.evenmoretext{
-  padding-top: 850px;
+.twocolumncontainer{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
-.adir{
-  padding-top: 850px;
+.twocolumncontainer p{
+  display: flex;
+  width: 100%;
+  font-size: .7em;
+  line-height: 1.2em;
 }

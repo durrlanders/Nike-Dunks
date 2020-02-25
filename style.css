@@ -1,26 +1,49 @@
-body{
-font-family: arial Black;
-color: white;
-h1{
-  font-size: 45px;
-}
-}
-.topbar{
-  position: fixed;
-  padding: 40px;
-  font-size: 60px;
-}
-.writing{
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial Black;
+  color: white;
+  font-size: 20vmin;
   background-color: black;
-  padding: 275px;
 }
-#lows{
+.topbar {
+  position: fixed;
+  padding-left: 7vmin;
+  padding-top: 48vmin;
+  font-size: 9vmin;
+  line-height: 4vmin;
+  }
+
+.maincontainer{
+  margin: 0px;
+  padding: 0px;
+}
+.lows {
   background-image: url(low.jpg);
+  height: 100vh;
   background-size: cover;
-  height: 1000px;
+  background-position: center;
 }
-#highs{
+h1 {
+  font-size: 10vmin;
+  line-height: 2vmin;
+}
+
+
+.writing {
+  display: flex;
+  flex-direction: column;
+  font-size: 20pt;
+  line-height: 150%;
+  background-color: black;
+  padding-top: 7vmin;
+  padding-bottom: 7vmin;
+  padding-left: 12vmin;
+  padding-right: 4vmin;
+}
+.highs {
   background-image: url(high.jpg);
+  height: 100vh;
   background-size: cover;
-  height: 1000px;
+  background-position: center;
 }

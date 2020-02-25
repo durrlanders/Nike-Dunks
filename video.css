@@ -1,10 +1,34 @@
-.iframe-container{
-position: relative;
-padding: 0px;
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial Black;
+  color: white;
+  font-size: 20vmin;
+  background-color: black;
 }
-.backround{
-  padding: 100px;
+iframe {
+  height: 100vmin;
+}
+.topbar {
+  position: fixed;
+  padding-left: 7vmin;
+  padding-top: 1vmin;
+  font-size: 9vmin;
+  line-height: 4vmin;
+  }
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
   background-color: black;
   font-size: 25px;
-  justify-content: flex-end;
+}
+.iframe-container {
+display: flex;
+flex-direction: column;
+padding-left: 20vmin;
+padding-right: 20vmin;
+padding-top: 7vmin;
+padding-bottom: 7vmin;
 }
